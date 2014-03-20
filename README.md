@@ -7,7 +7,8 @@ with SASS.
 Usage
 =====
 
-Each folder is independent, so you just need to copy and compile it.
+Each folder is independent, so you just need to copy and compile it with GruntJs and Compass.
+Before you should install some packages using ''npm install''.
 
 Packages
 ========
@@ -20,4 +21,5 @@ Third packages and libs used:
 Tools
 =====
 
-I recomend you to use [Compass](http://compass-style.org/) and [Scout](mhs.github.io/scout-app/).
+I recomend you to use [Compass](http://compass-style.org/) and [GruntJs](gruntjs.com).
+

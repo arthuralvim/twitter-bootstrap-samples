@@ -7,4 +7,5 @@ images_dir = "img"
 javascripts_dir = "js"
 
 # output_style = :expanded or :nested or :compact or :compressed
-# line_comments = false
+output_style = :compressed
+line_comments = false
