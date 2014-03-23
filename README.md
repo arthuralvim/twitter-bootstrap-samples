@@ -7,7 +7,7 @@ with SASS.
 Usage
 =====
 
-Each folder is independent, so you just need to copy and compile it with GruntJs and Compass.
+You just need to copy and compile it with GruntJs and Compass.
 Before you should install some packages using ''npm install''.
 
 Packages

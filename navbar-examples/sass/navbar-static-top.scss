@@ -1,0 +1,11 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "_bootstrap";
+
+body {
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
