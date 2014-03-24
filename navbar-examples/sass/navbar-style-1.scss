@@ -1,0 +1,12 @@
+// customize bootstrap variables here:
+@import "variables_style_1";
+@import "_bootstrap_style_1";
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
