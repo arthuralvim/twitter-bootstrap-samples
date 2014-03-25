@@ -25,12 +25,15 @@ You will need to use [Compass](http://compass-style.org/), [GruntJs](gruntjs.com
 and [Uglify-Js](https://github.com/mishoo/UglifyJS2).
 
 To install Compass:
+
     gem install compass
 
 To install Gruntjs client:
+
     npm install -g grunt-cli
 
 To install Uglify-js:
+
     npm install -g uglify-js
 
 Make sure Node.js and NPM (Node Package Manager) are updated.

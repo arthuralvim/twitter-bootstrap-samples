@@ -1,0 +1,29 @@
+{
+  "name": "blog-examples",
+  "version": "1.0.0",
+  "description": "Some examples with bootstrap.",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arthuralvim/twitter-bootstrap-samples.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "compass",
+    "grunt"
+  ],
+  "author": "Arthur Alvim",
+  "license": "The MIT License (MIT)",
+  "bugs": {
+    "url": "https://github.com/arthuralvim/twitter-bootstrap-samples/issues"
+  },
+  "homepage": "https://github.com/arthuralvim/twitter-bootstrap-samples",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-uglify": "~0.4.0",
+    "matchdep": "~0.3.0"
+  }
+}

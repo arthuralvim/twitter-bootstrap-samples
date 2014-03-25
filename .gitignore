@@ -1,3 +1,6 @@
+!**/css/empty
+**/css/*
+**/js/bootstrap.js
 *~
 .DS_Store
 .sass-cache
