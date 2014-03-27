@@ -1,4 +1,5 @@
 // customize bootstrap variables here:
+@import "compass/css3";
 @import "variables";
 @import "_bootstrap";
 
@@ -34,4 +35,72 @@ body > .container {
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.blog-post{
+    border: 2px #9C9C9C solid;
+    @include border-radius(4px);
+    padding: 10px;
+
+    .blog-post-title{
+        // blog-post-title styles
+    }
+    .blog-post-content{
+        // blog-post-content styles
+        margin-bottom: 20px;
+    }
+
+    .blog-post-tag{
+        text-decoration: none;
+    }
+
+    i {
+    margin: 0 5px;
+    }
+}
+
+.blog-search{
+    margin-top: 20px;
+}
+
+.tab-content{
+    border: 1px #CCC solid;
+    border-top: 0;
+    @include border-bottom-radius(4px);
+    padding: 10px;
+
+    .recomend-post{
+        min-height: 60px;
+        border-top: 2px #CCC solid;
+        padding: 5px;
+        .recomend-post-title{
+            font-size:12px;
+            font-weight:bold;
+        }
+
+        .recomend-post-date{
+            font-size:10px;
+        }
+    }
+
+    .recomend-post:hover{
+            background-color: #9C9C9C;
+    }
+
+
+}
+
+.publicity{
+    background: image-url("png/p.png") 0 0 repeat;
+    p{
+        color: #9C9C9C !important;
+        float: right;
+        font-size: 8px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+
+.pag-more{
+    margin-top: 100px;
 }
