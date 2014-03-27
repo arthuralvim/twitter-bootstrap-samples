@@ -90,6 +90,35 @@ body > .container {
 
 }
 
+.gallery{
+
+    img {
+        @include box-shadow(rgba(0,0,0,0.75) 0px 2px 6px 2px);
+        @include filter(grayscale(100%));
+        margin-bottom: 10px;
+    }
+    img:hover {
+        @include filter(grayscale(0%));
+    }
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+    iframe, object, embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
 .publicity{
     background: image-url("png/p.png") 0 0 repeat;
     margin: 20px 0;
