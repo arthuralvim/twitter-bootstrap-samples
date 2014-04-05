@@ -17,6 +17,8 @@ Third packages and libs used:
 
 1. [Jquery.js 1.11.0](http://code.jquery.com/jquery-1.11.0.js)
 2. [Holder.js 2.3.2](https://github.com/imsky/holder)
+3. [Font-Awesome.js 4.0.3](https://github.com/FortAwesome/Font-Awesome)
+4. [Bootstrap Social 4.2.1](https://github.com/lipis/bootstrap-social)
 
 Requirements
 =====
