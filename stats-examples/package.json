@@ -1,5 +1,5 @@
 {
-  "name": "base-examples",
+  "name": "stats-examples",
   "version": "1.0.0",
   "description": "Some examples with bootstrap.",
   "main": "Gruntfile.js",
@@ -24,6 +24,7 @@
     "grunt-contrib-compass": "~0.7.2",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-connect": "~0.7.1",
     "matchdep": "~0.3.0"
   }
 }

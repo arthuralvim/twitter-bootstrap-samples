@@ -14,6 +14,15 @@ module.exports = function(grunt) {
             }
         },
 
+        connect: {
+            'static': {
+                options: {
+                    hostname: 'localhost',
+                    port: 9999
+                }
+            }
+        },
+
         uglify: {
             dev: {
                 files: {
@@ -41,6 +50,6 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['compass:dev', 'uglify:dev', 'watch']);
+    grunt.registerTask('default', ['compass:dev', 'uglify:dev', 'connect:static', 'watch']);
 
 }

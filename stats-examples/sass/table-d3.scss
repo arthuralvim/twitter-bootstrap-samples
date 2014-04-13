@@ -1,0 +1,13 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "_bootstrap";
+@import "_d3";
+
+body {
+  padding: 60px 0;
+}
+
+.graph {
+    display: block;
+    margin-bottom: 20px;
+}
