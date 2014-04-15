@@ -1,0 +1,17 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "_bootstrap";
+
+body {
+  padding: 60px 0;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+.progress-bar {
+    padding: 3px 10px 2px;
+    text-align: left;
+    font-weight: 800;
+}
