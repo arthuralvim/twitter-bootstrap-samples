@@ -1,0 +1,33 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "_bootstrap";
+
+body {
+  padding: 60px 0;
+}
+
+.poll{
+
+    .question{
+        border-bottom: 1px solid #EEE;
+    }
+
+    .options{
+        .form-group{
+            display: block;
+
+            .answers {
+                margin-bottom: 20px;
+            }
+            .radio, .checkbox {
+                label {
+                    float: left;
+                    font-size: 18px;
+                    font-weight: normal;
+                    cursor: pointer;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
