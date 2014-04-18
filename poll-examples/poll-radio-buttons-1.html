@@ -11,7 +11,7 @@
         <title>Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="css/poll-radio-buttons.css" rel="stylesheet">
+        <link href="css/poll-radio-buttons-1.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -71,61 +71,58 @@
                         <div class="options">
                             <form role="form">
                                 <div class="form-group has-success">
+                                    <div class="option text-center">
+                                        <input type="radio" id="poll-opt-1" name="poll-option" data-size="large" value="option1">
+                                    </div>
+
                                     <div class="radio input-lg">
-                                        <label>
-                                            A. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, harum, ad natus nostrum ullam expedita illum. At, autem, id nemo quibusdam dicta optio placeat ut totam tenetur numquam iste voluptatum.
+                                        <label for="poll-opt-1">
+                                            <p class="opt-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dicta, minima iusto eos sunt et veniam dolore maiores veritatis magnam? Obcaecati, praesentium, veritatis voluptate ipsam vel rem sint dignissimos eligendi.</p>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group has-error">
+                                    <div class="option text-center">
+                                        <input type="radio" id="poll-opt-2" name="poll-option" data-size="large" value="option1" checked>
+                                    </div>
+
                                     <div class="radio input-lg">
-                                        <label>
-                                            B. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, harum, ad natus nostrum ullam expedita illum. At, autem, id nemo quibusdam dicta optio placeat ut totam tenetur numquam iste voluptatum.
+                                        <label for="poll-opt-2">
+                                            <p class="opt-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dicta, minima iusto eos sunt et veniam dolore maiores veritatis magnam? Obcaecati, praesentium, veritatis voluptate ipsam vel rem sint dignissimos eligendi.</p>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    <div class="option text-center">
+                                        <input type="radio" id="poll-opt-3" name="poll-option" data-size="large" value="option1">
+                                    </div>
+
                                     <div class="radio input-lg">
-                                        <label>
-                                            C. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, harum, ad natus nostrum ullam expedita illum. At, autem, id nemo quibusdam dicta optio placeat ut totam tenetur numquam iste voluptatum.
+                                        <label for="poll-opt-3">
+                                            <p class="opt-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dicta, minima iusto eos sunt et veniam dolore maiores veritatis magnam? Obcaecati, praesentium, veritatis voluptate ipsam vel rem sint dignissimos eligendi.</p>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    <div class="option text-center">
+                                        <input type="radio" id="poll-opt-4" name="poll-option" data-size="large" value="option1">
+                                    </div>
+
                                     <div class="radio input-lg">
-                                        <label>
-                                            D. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, harum, ad natus nostrum ullam expedita illum. At, autem, id nemo quibusdam dicta optio placeat ut totam tenetur numquam iste voluptatum.
+                                        <label for="poll-opt-4">
+                                            <p class="opt-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dicta, minima iusto eos sunt et veniam dolore maiores veritatis magnam? Obcaecati, praesentium, veritatis voluptate ipsam vel rem sint dignissimos eligendi.</p>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <div class="radio input-lg">
-                                        <label>
-                                            E. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, harum, ad natus nostrum ullam expedita illum. At, autem, id nemo quibusdam dicta optio placeat ut totam tenetur numquam iste voluptatum.
-                                        </label>
+                                    <div class="option text-center">
+                                        <input type="radio" id="poll-opt-5" name="poll-option" data-size="large" value="option1">
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <div class="answers text-center">
-                                            <div class="btn-group btn-group-lg" data-toggle="buttons">
-                                                <label class="btn btn-primary">
-                                                    <input type="radio" name="options" id="option1"> A
-                                                </label>
-                                                <label class="btn btn-primary">
-                                                    <input type="radio" name="options" id="option2"> B
-                                                </label>
-                                                <label class="btn btn-primary">
-                                                    <input type="radio" name="options" id="option3"> C
-                                                </label>
-                                                <label class="btn btn-primary">
-                                                    <input type="radio" name="options" id="option4"> D
-                                                </label>
-                                                <label class="btn btn-primary">
-                                                    <input type="radio" name="options" id="option5"> E
-                                                </label>
-                                            </div>
-                                        </div>
+
+                                    <div class="radio input-lg">
+                                        <label for="poll-opt-5">
+                                            <p class="opt-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dicta, minima iusto eos sunt et veniam dolore maiores veritatis magnam? Obcaecati, praesentium, veritatis voluptate ipsam vel rem sint dignissimos eligendi.</p>
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -151,6 +148,8 @@
         <script src="js/jquery-1.11.0.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/holder-2.3.2.js"></script>
+        <script src="js/bootstrap-switch-3.0.0.js"></script>
+        <script src="js/poll-radio-buttons.js"></script>
 
     </body>
 </html>

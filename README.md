@@ -22,6 +22,7 @@ Third packages and libs used:
 4. [Bootstrap Social 4.2.1](https://github.com/lipis/bootstrap-social)
 5. [d3.js 3.4.5](https://github.com/mbostock/d3)
 6. [c3.js 0.1.30](https://github.com/masayuki0812/c3)
+7. [bootstrap-switch.js 3.0.0](https://github.com/nostalgiaz/bootstrap-switch)
 
 Requirements
 =====
