@@ -11,7 +11,7 @@
         <title>Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="css/403.css" rel="stylesheet">
+        <link href="css/search-3.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -58,13 +58,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="page-header">
-                        <h1>Maybe you're not supposed to be here! <small>403 - Forbidden</small></h1>
+                    <div class="page-header text-center">
+                        <div class="question-image"> <a href="#" class=""> <img data-src="holder.js/270x95/auto" class="img-responsive visible-xs visible-sm visible-md visible-lg center-block" alt="..."> </a> </div>
+                        <h1>Search bar</h1>
                     </div>
-                    <h2> Access Forbidden! </h2>
-                    <div class="btn-group actions">
-                        <a href="#" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span> Take Me Home </a>
-                        <a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+                    <div class="row">
+                        <form action="#">
+                            <div class="form-group">
+                                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                                    <div class="input-group input-group-lg">
+                                        <input type="text" class="form-control" id="search-input" placeholder="Search">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -76,6 +86,8 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/jquery-1.11.0.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/holder-2.3.2.js"></script>
+        <script src="js/search-3.js"></script>
 
     </body>
 </html>

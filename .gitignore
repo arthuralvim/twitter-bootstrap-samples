@@ -5,5 +5,5 @@
 .DS_Store
 .sass-cache
 .sublime-grunt.cache
-.todo
+tasks.todo
 node_modules

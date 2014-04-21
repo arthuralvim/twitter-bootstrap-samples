@@ -1,0 +1,13 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "_bootstrap";
+@import "_font-awesome";
+
+
+body {
+  margin-top: 60px;
+}
+
+.actions{
+    margin: 20px 0;
+}
