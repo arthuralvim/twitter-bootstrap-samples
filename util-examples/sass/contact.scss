@@ -1,0 +1,20 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "_bootstrap";
+
+
+body {
+  margin-top: 60px;
+}
+
+.actions{
+    margin-top: 20px;
+}
+
+.top-inputs{
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+}
