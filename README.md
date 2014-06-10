@@ -23,6 +23,7 @@ Third packages and libs used:
 5. [d3.js 3.4.5](https://github.com/mbostock/d3)
 6. [c3.js 0.1.30](https://github.com/masayuki0812/c3)
 7. [bootstrap-switch.js 3.0.0](https://github.com/nostalgiaz/bootstrap-switch)
+8. [jQuery Parallax 1.1.3](https://github.com/IanLunn/jQuery-Parallax)
 
 Requirements
 =====
