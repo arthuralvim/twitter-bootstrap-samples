@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Some twitter bootstrap framework examples">
+        <meta name="author" content="Arthur Alvim">
+        <link rel="shortcut icon" href="ico/favicon.ico">
+
+        <title>Template for Bootstrap</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/store.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="#">Project name</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container -->
+        </div>
+
+        <div class="container">
+
+            <div class="row row-offcanvas row-offcanvas-right">
+                <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                    <div class="panel panel-default">
+
+                        <div class="panel-heading"> <i class="fa fa-male"></i> Category 1</div>
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item active">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                        </div>
+
+                        <div class="panel-heading"> <i class="fa fa-fire"></i> Category 2</div>
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                        </div>
+
+                        <div class="panel-heading"> <i class="fa fa-female"></i> Category 3</div>
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                        </div>
+
+                        <div class="panel-heading"> <i class="fa fa-gift"></i> Category 4</div>
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                        </div>
+                    </div>
+
+                </div><!--/span-->
+                <div class="col-xs-12 col-sm-9">
+                    <p class="pull-right visible-xs">
+                        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+                    </p>
+
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <ol class="breadcrumb">
+                                <li><a href="#">Category 1</a></li>
+                                <li><a href="#">Category 2</a></li>
+                                <li class="active">Product short name</li>
+                            </ol>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+
+                                    <div class="product-gallery">
+
+                                        <div class="product-big-image">
+                                            <a href="#" class="product-image">
+                                                <img data-src="holder.js/420x450/auto" class="product-img-responsive" alt="...">
+                                            </a>
+                                        </div>
+
+                                        <ul id="product-thumbnails" class="list-unstyled list-inline">
+                                            <li>
+                                                <a id="image-1" href="#">
+                                                    <img data-src="holder.js/75x75/auto" class="product-img-responsive" alt="...">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a id="image-2" href="#">
+                                                    <img data-src="holder.js/75x75/auto" class="product-img-responsive" alt="...">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a id="image-3" href="#">
+                                                    <img data-src="holder.js/75x75/auto" class="product-img-responsive" alt="...">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a id="image-4" href="#">
+                                                    <img data-src="holder.js/75x75/auto" class="product-img-responsive" alt="...">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a id="image-5" href="#">
+                                                    <img data-src="holder.js/75x75/auto" class="product-img-responsive" alt="...">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a id="image-6" href="#">
+                                                    <img data-src="holder.js/75x75/auto" class="product-img-responsive" alt="...">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a id="image-7" href="#">
+                                                    <img data-src="holder.js/75x75/auto" class="product-img-responsive" alt="...">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a id="image-8" href="#">
+                                                    <img data-src="holder.js/75x75/auto" class="product-img-responsive" alt="...">
+                                                </a>
+                                            </li>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="product-detail">
+                                        <div class="page-header title">
+                                            <h3>Product Name</h3>
+                                        </div>
+                                        <div class="rating">
+                                          <i class="fa fa-star fa-lg"></i>
+                                          <i class="fa fa-star fa-lg"></i>
+                                          <i class="fa fa-star fa-lg"></i>
+                                          <i class="fa fa-star fa-lg"></i>
+                                          <i class="fa fa-star fa-lg"></i>
+                                        </div>
+                                        <div class="quantity">
+                                            100 <small>in stock</small>
+                                            <span class="in-stock"><i class="fa fa-circle fa-lg"></i></span>
+                                        </div>
+                                        <form role="form">
+                                            <fieldset>
+
+                                                <div class="form-group">
+                                                    <label class="control-label" for="quantity">Quantity</label>
+                                                    <input id="quantity" min="1" name="quantity" type="number" value="1">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="select">Color <small>color x - (code xxxx)</small></label>
+                                                    <div class="row">
+                                                        <div class="col-xs-2 col-md-2">
+                                                            <a href="#">
+                                                                <img data-src="holder.js/60x60" alt="...">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-2 col-md-2">
+                                                            <a href="#">
+                                                                <img data-src="holder.js/60x60" alt="...">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-2 col-md-2">
+                                                            <a href="#">
+                                                                <img data-src="holder.js/60x60" alt="...">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-2 col-md-2">
+                                                            <a href="#">
+                                                                <img data-src="holder.js/60x60" alt="...">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-2 col-md-2">
+                                                            <a href="#">
+                                                                <img data-src="holder.js/60x60" alt="...">
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-2 col-md-2">
+                                                            <a href="#">
+                                                                <img data-src="holder.js/60x60" alt="...">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="form-group">
+                                                    <label class="control-label">Size</label>
+                                                   <div>
+                                                        <div id="size" class="btn-group" data-toggle="buttons">
+                                                            <label class="btn btn-primary">
+                                                                <input type="radio" name="options" id="S" checked>S
+                                                            </label>
+                                                            <label class="btn btn-primary">
+                                                                <input type="radio" name="options" id="M"> M
+                                                            </label>
+                                                            <label class="btn btn-primary">
+                                                                <input type="radio" name="options" id="G"> G
+                                                            </label>
+                                                            <label class="btn btn-primary">
+                                                                <input type="radio" name="options" id="XG"> XG
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <a href="#" class="btn btn-primary btn-block"> Add to cart <i class="fa fa-shopping-cart"></i> </a>
+                                            </fieldset>
+                                        </form>
+                                        <div class="price">
+                                            <strong> US$ 9999,99 </strong>
+                                            <div class="discount"></div>
+                                            <div class="div-payment">
+                                                3x de US$ 3333,33
+                                            </div>
+                                        </div>
+                                        <div class="shiping"></div>
+                                        <div class="share"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                            <div class="page-header">
+                                <h1>Recomendations</h1>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="product">
+                                <a href="#" class="product-image">
+                                <span></span>
+                                <span class="flag discount discount-level-1">-17%</span>
+                                <span class="flag-horizontal discount-horizontal discount-level-1">-17%</span>
+
+                                <img data-src="holder.js/250x250/auto" class="product-img-responsive" alt="...">
+                                </a>
+                                <hr>
+                                <div class="caption">
+                                    <h3>Product Name</h3>
+                                    <p> <small> <span class="label label-danger">Category</span> </small> </p>
+                                    <h4> <strong> US$ 9999,99 </strong> </h4>
+
+                                    <div class="buttons">
+                                        <a href="#" class="btn btn-primary btn-block"> Add to cart <i class="fa fa-shopping-cart"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="product">
+                                <a href="#" class="product-image">
+                                <span></span>
+                                <span class="flag discount discount-level-1">-17%</span>
+                                <span class="flag-horizontal discount-horizontal discount-level-1">-17%</span>
+
+                                <img data-src="holder.js/250x250/auto" class="product-img-responsive" alt="...">
+                                </a>
+                                <hr>
+                                <div class="caption">
+                                    <h3>Product Name</h3>
+                                    <p> <small> <span class="label label-danger">Category</span> </small> </p>
+                                    <h4> <strong> US$ 9999,99 </strong> </h4>
+
+                                    <div class="buttons">
+                                        <a href="#" class="btn btn-primary btn-block"> Add to cart <i class="fa fa-shopping-cart"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="product">
+                                <a href="#" class="product-image">
+                                <span></span>
+                                <span class="flag discount discount-level-1">-17%</span>
+                                <span class="flag-horizontal discount-horizontal discount-level-1">-17%</span>
+
+                                <img data-src="holder.js/250x250/auto" class="product-img-responsive" alt="...">
+                                </a>
+                                <hr>
+                                <div class="caption">
+                                    <h3>Product Name</h3>
+                                    <p> <small> <span class="label label-danger">Category</span> </small> </p>
+                                    <h4> <strong> US$ 9999,99 </strong> </h4>
+
+                                    <div class="buttons">
+                                        <a href="#" class="btn btn-primary btn-block"> Add to cart <i class="fa fa-shopping-cart"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                            <div class="page-header">
+                                <h1>Product Details</h1>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <h2>product description</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque fugiat cupiditate asperiores nisi magni soluta obcaecati hic deserunt inventore natus ratione mollitia illum iusto, suscipit dolorem quo cum ipsa et exercitationem rerum repudiandae ullam, magnam perspiciatis. Repudiandae ea quo similique ex iure minima! Voluptate sapiente nostrum voluptatum fuga corrupti, a voluptatem expedita eligendi molestias vero. A perferendis dicta assumenda voluptatem, cum illum repellat accusantium magnam esse corporis magni, ad at laborum atque eveniet totam? Ipsam numquam doloribus blanditiis facere reiciendis mollitia, quidem impedit, earum natus debitis, dicta asperiores sunt ipsa eius eaque unde eveniet aut accusantium, autem quasi. Sit, voluptatum?</p>
+                            <ol>
+                                <li class="lead"> Lorem ipsum dolor sit.</li>
+                                <li class="lead"> Lorem ipsum dolor sit.</li>
+                                <li class="lead"> Lorem ipsum dolor sit.</li>
+                                <li class="lead"> Lorem ipsum dolor sit.</li>
+                                <li class="lead"> Lorem ipsum dolor sit.</li>
+                                <li class="lead"> Lorem ipsum dolor sit.</li>
+                            </ol>
+                        </div>
+
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                            <div class="page-header">
+                                <h1>Product Review</h1>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12">
+                                <h2>Comments</h2>
+                            </div>
+                            <div class="col-sm-12 col-md-12">
+                                <div class="media">
+                                    <a class="pull-left" href="#"> <img class="media-object" data-src="holder.js/64x64"></a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Media heading</h4>
+                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left" href="#"> <img class="media-object" data-src="holder.js/64x64"></a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Media heading</h4>
+                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                        <div class="media">
+                                            <a class="pull-left" href="#"> <img class="media-object" data-src="holder.js/64x64"></a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Media heading</h4>
+                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12">
+                                <h2>Leave a Comment</h2>
+                            </div>
+                                <form>
+                            <div class="col-sm-12 col-md-12">
+                                    <div class="row">
+                                            <div class="form-group col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-5 col-xs-offset-1">
+                                                <label for="email">Email:</label>
+                                                <input type="email" class="form-control" id="email" placeholder="My email here">
+                                            </div>
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-5">
+                                                <label for="name">Name:</label>
+                                                <input type="text" class="form-control" id="name" placeholder="My name here">
+                                            </div>
+                                        <div class="form-group col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                                            <label for="message">Comment</label>
+                                            <textarea class="form-control" id="message" rows="5" placeholder="Your comment here"></textarea>
+                                        </div>
+                                        <div class="form-group col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                                            <button type="submit" class="btn btn-default pull-right">Send</button>
+                                        </div>
+                                    </div>
+                            </div>
+                                </form>
+                        </div>
+
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                            <div class="page-header">
+                                <h1>Outros também compraram</h1>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="product">
+                                <a href="#" class="product-image">
+                                <span></span>
+                                <span class="flag discount discount-level-1">-17%</span>
+                                <span class="flag-horizontal discount-horizontal discount-level-1">-17%</span>
+
+                                <img data-src="holder.js/250x250/auto" class="product-img-responsive" alt="...">
+                                </a>
+                                <hr>
+                                <div class="caption">
+                                    <h3>Product Name</h3>
+                                    <p> <small> <span class="label label-danger">Category</span> </small> </p>
+                                    <h4> <strong> US$ 9999,99 </strong> </h4>
+
+                                    <div class="buttons">
+                                        <a href="#" class="btn btn-primary btn-block"> Add to cart <i class="fa fa-shopping-cart"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="product">
+                                <a href="#" class="product-image">
+                                <span></span>
+                                <span class="flag discount discount-level-1">-17%</span>
+                                <span class="flag-horizontal discount-horizontal discount-level-1">-17%</span>
+
+                                <img data-src="holder.js/250x250/auto" class="product-img-responsive" alt="...">
+                                </a>
+                                <hr>
+                                <div class="caption">
+                                    <h3>Product Name</h3>
+                                    <p> <small> <span class="label label-danger">Category</span> </small> </p>
+                                    <h4> <strong> US$ 9999,99 </strong> </h4>
+
+                                    <div class="buttons">
+                                        <a href="#" class="btn btn-primary btn-block"> Add to cart <i class="fa fa-shopping-cart"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="product">
+                                <a href="#" class="product-image">
+                                <span></span>
+                                <span class="flag discount discount-level-1">-17%</span>
+                                <span class="flag-horizontal discount-horizontal discount-level-1">-17%</span>
+
+                                <img data-src="holder.js/250x250/auto" class="product-img-responsive" alt="...">
+                                </a>
+                                <hr>
+                                <div class="caption">
+                                    <h3>Product Name</h3>
+                                    <p> <small> <span class="label label-danger">Category</span> </small> </p>
+                                    <h4> <strong> US$ 9999,99 </strong> </h4>
+
+                                    <div class="buttons">
+                                        <a href="#" class="btn btn-primary btn-block"> Add to cart <i class="fa fa-shopping-cart"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="pag-more text-center">
+                                <a href="#" class="btn btn-default btn-lg">LOAD MORE...</a>
+                                <div class="clearfix"></div>
+                                <ul class="pagination pagination-lg">
+                                    <li><a href="#">&laquo;</a></li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#">&raquo;</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /container -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-1.11.0.js"></script>
+        <script src="js/holder-2.3.2.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/store.js"></script>
+
+    </body>
+</html>
