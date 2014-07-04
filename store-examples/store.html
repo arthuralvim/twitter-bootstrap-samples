@@ -107,11 +107,31 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-9">
-                    <p class="pull-right visible-xs">
-                        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-                    </p>
+                    <div class="row space10">
+                        <div class="col-md-3 pull-right">
+                            <p class="pull-right visible-xs">
+                                <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+                            </p>
+                        </div>
+                    </div>
 
-                    <div class="row">
+                    <div class="row space10">
+                        <div class="col-md-3 pull-right">
+                            <form class="product-sorting form-inline" role="form">
+                                <div class="form-group">
+                                <label class="control-label" for="sorting-select">Sort by</label>
+                                    <select class="form-control" id="sorting-select">
+                                        <option selected="selected" value="recently-added"> Recently added </option>
+                                        <option value="highest-rated"> Highest rated </option>
+                                        <option value="least-expensive"> Least expensive </option>
+                                        <option value="most-expensive"> Most expensive </option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="row space10">
                         <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class="product">
                                 <a href="#" class="product-image">
