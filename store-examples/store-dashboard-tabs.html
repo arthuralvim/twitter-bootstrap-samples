@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Some twitter bootstrap framework examples">
+        <meta name="author" content="Arthur Alvim">
+        <link rel="shortcut icon" href="ico/favicon.ico">
+
+        <title>Template for Bootstrap</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/store.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="#">Project name</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="#"><i class="fa fa-shopping-cart fa-lg"><span class="badge-notify">9</span></i></a></li>
+                        <li><a href="#"><i class="fa fa-star fa-lg"><span class="badge-notify">99</span></i></a></li>
+                        <li><a href="#"><i class="fa fa-comment fa-lg"><span class="badge-notify">99+</span></i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope fa-lg"></i> <span class="badge">99+</span></a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container -->
+        </div>
+
+        <div class="container">
+
+            <div class="row row-offcanvas row-offcanvas-right">
+                <div class="col-xs-6 col-sm-3 col-md-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                    <div class="panel panel-default">
+
+                        <div class="panel-heading"> <i class="fa fa-male"></i> Category 1</div>
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item active">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                        </div>
+
+                        <div class="panel-heading"> <i class="fa fa-fire"></i> Category 2</div>
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                        </div>
+
+                        <div class="panel-heading"> <i class="fa fa-female"></i> Category 3</div>
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                        </div>
+
+                        <div class="panel-heading"> <i class="fa fa-gift"></i> Category 4</div>
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                            <a href="#" class="list-group-item">Link <span class="badge">14</span> </a>
+                        </div>
+                    </div>
+
+                </div><!--/span-->
+
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <p class="pull-right visible-xs">
+                        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+                    </p>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Dashboard</a></li>
+                        <li class="active">Tabs</li>
+                    </ol>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#form" role="tab" data-toggle="tab">Form</a></li>
+                        <li><a href="#table" role="tab" data-toggle="tab">Table</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="form">
+                            <h2>Form <small>simple</small></h2>
+                            <form role="form">
+                                <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                <label for="exampleInputFile">File input</label>
+                                <input type="file" id="exampleInputFile">
+                                <p class="help-block">Example block-level help text here.</p>
+                                </div>
+                                <div class="checkbox">
+                                <label>
+                                <input type="checkbox"> Check me out
+                                </label>
+                                </div>
+                                <button type="submit" class="btn btn-default pull-right">Submit</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="table">
+                            <h2>Table <small>simple</small></h2>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-hover table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Header</th>
+                                            <th>Header</th>
+                                            <th>Header</th>
+                                            <th>Header</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1,001</td>
+                                            <td>Lorem</td>
+                                            <td>ipsum</td>
+                                            <td>dolor</td>
+                                            <td>sit</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1,002</td>
+                                            <td>amet</td>
+                                            <td>consectetur</td>
+                                            <td>adipiscing</td>
+                                            <td>elit</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1,003</td>
+                                            <td>Integer</td>
+                                            <td>nec</td>
+                                            <td>odio</td>
+                                            <td>Praesent</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1,003</td>
+                                            <td>libero</td>
+                                            <td>Sed</td>
+                                            <td>cursus</td>
+                                            <td>ante</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1,004</td>
+                                            <td>dapibus</td>
+                                            <td>diam</td>
+                                            <td>Sed</td>
+                                            <td>nisi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1,005</td>
+                                            <td>Nulla</td>
+                                            <td>quis</td>
+                                            <td>sem</td>
+                                            <td>at</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        <div class="pag">
+                            <ul class="pagination pagination-lg">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="profile">
+                        <img data-src="holder.js/150x150/auto" alt="..." class="img-circle">
+                        <p>(First Name) (Last Name) </p>
+                        <p>example@email.com</p>
+                    </div>
+                    <div class="list-group list-group-profile">
+                        <a href="#" class="list-group-item active">Resume</a>
+                        <a href="#" class="list-group-item">Orders</a>
+                        <a href="#" class="list-group-item">Edit address</a>
+                        <a href="#" class="list-group-item">Change password</a>
+                        <a href="#" class="list-group-item">Support</a>
+                        <a href="#" class="list-group-item">Delete account</a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /container -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-1.11.0.js"></script>
+        <script src="js/holder-2.3.2.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/store.js"></script>
+
+    </body>
+</html>
