@@ -1,0 +1,23 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "_bootstrap";
+
+
+body {
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+.modal {
+    position:relative;
+    top:auto;
+    right:auto;
+    left:auto;
+    bottom:auto;
+    z-index:1;
+    display:block
+}
+
+.modal-dialog {
+    width:90%
+}
