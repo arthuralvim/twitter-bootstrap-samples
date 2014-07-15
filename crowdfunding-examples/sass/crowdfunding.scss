@@ -14,6 +14,24 @@ body {
   padding: 60px 0;
 }
 
+.nav .avatar a, .nav .avatar a:hover {
+    position: relative;
+    height: 20px;
+    width: 10px;
+    margin-top: 10px;
+    border: 1px solid #EEE;
+    @include border-radius(2px);
+
+    img {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top:0;
+        left:0;
+        background-size: 100%;
+    }
+}
+
 .product {
     display: block;
     padding: $thumbnail-padding;
@@ -193,6 +211,75 @@ body {
         color: #000;
         border: 1px solid $thumbnail-bg;
         text-decoration: none;
+    }
+
+}
+
+// backers styles
+
+.backer {
+    display: block;
+    padding: $thumbnail-padding;
+    margin-bottom: $line-height-computed;
+    line-height: $line-height-base;
+    background-color: $thumbnail-bg;
+    border: 1px solid $thumbnail-border;
+    border-radius: 0;
+    @include transition(all .2s ease-in-out);
+
+    > img,
+    a > img {
+        @include img-responsive();
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .backer-img-responsive {
+        height: auto;
+        width: 100%;
+    }
+
+    .backer-image{
+        position: relative;
+        display: block;
+    }
+
+    .backer-image >span:first-child {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        border: 3px solid #000;
+        width: 100%;
+        height: 100%;
+        @include opacity(0);
+        @include box-sizing(border-box);
+        @include transition(all 140ms linear);
+    }
+
+    .backer-image >span:hover {
+        @include opacity(1);
+    }
+
+    .caption {
+        padding: $thumbnail-caption-padding;
+        color: $thumbnail-caption-color;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        border: 1px solid #EEE;
+    }
+
+    .backer-badge {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        left: 0;
+        background-color: #FFC;
     }
 
 }
