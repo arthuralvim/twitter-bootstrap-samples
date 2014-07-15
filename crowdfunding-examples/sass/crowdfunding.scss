@@ -84,3 +84,115 @@ body {
     }
 
 }
+
+
+// profile dashboard
+
+.profile {
+    background-color: $brand-primary;
+    border: 1px solid $brand-primary;
+
+    > img {
+        display: block;
+        border: 10px solid rgba(255, 255, 255, 0.3);
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    > p {
+        text-align: center;
+        color: #fff;
+    }
+}
+
+.list-group-profile {
+
+    > .list-group-item {
+        &:first-child {
+            @include border-top-radius(0);
+        }
+    }
+}
+
+// crowdfunding detail styles
+
+.bg-image {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.bg-image img {
+    display: block;
+    width: 100%;
+    min-height: 180px;
+    margin: 0 auto;
+}
+
+.bg-image h1 {
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.bg-image p {
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    left: 0;
+    right: 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+    iframe, object, embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.gallery{
+
+    img {
+        @include box-shadow(rgba(0,0,0,0.75) 0px 2px 6px 2px);
+        @include filter(grayscale(100%));
+        margin-bottom: 10px;
+    }
+    img:hover {
+        @include filter(grayscale(0%));
+    }
+}
+
+// prizes styles
+
+.prize {
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: $line-height-computed;
+    line-height: $line-height-base;
+    background-color: $thumbnail-bg;
+    color: #EEE;
+    border: 1px solid $thumbnail-border;
+    border-radius: 0;
+    @include transition(all .2s ease-in-out);
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $thumbnail-border;
+        color: #000;
+        border: 1px solid $thumbnail-bg;
+        text-decoration: none;
+    }
+
+}
